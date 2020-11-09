@@ -29,11 +29,12 @@ url: "https://elainfl.github.io/" # the base hostname & protocol for your site, 
 twitter_username: elainfl
 github_username:  elainfl
 # Build settings
-
-
 remote_theme: chrisbobbe/jekyll-theme-prologue
 plugins:
   - jekyll-feed
+avatar: assets/images/avatar.jpg
+collections: [sections]
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
