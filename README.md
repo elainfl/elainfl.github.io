@@ -32,4 +32,4 @@ You can also find me on [![Twitter][1.2]][1], or on [![LinkedIn][2.2]][2].
 <!-- Links to your social media accounts -->
 
 [1]: https://twitter.com/elainfl
-[2]: www.linkedin.com/in/elenafernandezlopez-95816144
+[2]: https://linkedin.com/in/elenafernandezlopez-95816144
