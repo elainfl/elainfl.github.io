@@ -1,4 +1,4 @@
-![Header](https://github.com/elainfl/elainfl/blob/master/big_data_banner.png "Header")
+![Header](https://github.com/elainfl/elainfl/blob/master/Github_banner_Elena.PNG "Header")
 
 # About me...
 
