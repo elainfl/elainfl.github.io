@@ -13,4 +13,7 @@ Some of the tools I currently use are,
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=Linux&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=Python&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-R-informational?style=flat&logo=R&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnubash&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=GNUBash&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tool-Git-informational?style=flat&logo=Git&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tool-Github-informational?style=flat&logo=GitHub&logoColor=white&color=2bbc8a)
+
