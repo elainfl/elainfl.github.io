@@ -17,3 +17,17 @@ Some of the tools I currently use are,
 ![](https://img.shields.io/badge/Tool-Git-informational?style=flat&logo=Git&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Tool-Github-informational?style=flat&logo=GitHub&logoColor=white&color=2bbc8a)
 
+
+<!-- Actual text -->
+
+You can also find me on [![Twitter][1.2]][1], or on [![LinkedIn][2.2]][2].
+
+<!-- Icons -->
+
+[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
+[2.2]: LinkedIn_logo_22px.png (LinkedIn icon without padding)
+
+<!-- Links to your social media accounts -->
+
+[1]: https://twitter.com/elainfl
+[2]: www.linkedin.com/in/elenafernandezlopez-95816144
