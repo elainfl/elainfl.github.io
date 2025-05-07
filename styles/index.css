@@ -10,9 +10,13 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /*header*/
+#headerLeft {
+    width: 60%;
+}
+
 
 #imagePortrait {
-    max-width: 100%;
+    width: 40%;
     /*width: 100% \9;*/
 }
 
