@@ -2,10 +2,9 @@
 /* Cambiar el color primario de Bootstrap */
 :root {
 --bs-primary: #ff6b6b; /* Sobreescribe el azul por un coral */
-
 }
 
 /* Modificar la navbar */
 .navbar {
-box-shadow: 0 2px 10px --bg-white;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
