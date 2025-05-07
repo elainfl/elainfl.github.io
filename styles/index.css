@@ -18,5 +18,10 @@ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 #imagePortrait {
     width: 40%;
     /*width: 100% \9;*/
+    
 }
-
+#portraitPicture img {
+    max-width: 400px;  /* Ajusta este valor según necesites */
+    height: auto;      /* Mantiene la proporción */
+    border-radius: 10px; /* Ejemplo: esquinas redondeadas */
+  }
