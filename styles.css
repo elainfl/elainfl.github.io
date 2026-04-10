@@ -1,73 +1,97 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #f4f6f9;
-  color: #333;
+/* Configuración General */
+:root {
+  --primary-color: #2c3e50;    /* Azul oscuro profesional */
+  --accent-color: #27ae60;     /* Verde "biotech" */
+  --text-color: #333;
+  --light-bg: #f4f7f6;
 }
 
-/* NAVBAR */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-bg);
+}
+
+/* Navegación */
 nav {
-  background: #1f2a44;
-  padding: 15px;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+  background: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
-  transition: 0.3s;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #00bcd4;
+  color: var(--accent-color);
 }
 
-/* HEADER */
+/* Header */
 header {
-  background: linear-gradient(135deg, #00bcd4, #3f51b5);
-  color: white;
-  padding: 60px 20px;
+  background: white;
+  padding: 3rem 1rem;
   text-align: center;
+  border-bottom: 3px solid var(--accent-color);
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.5em;
+  font-size: 2.5rem;
+  color: var(--primary-color);
 }
 
-/* SECTIONS */
+header p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* Secciones */
 section {
-  max-width: 900px;
-  margin: 30px auto;
-  padding: 25px;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
   background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
-h1, h2 {
-  margin-top: 0;
+h2 {
+  color: var(--primary-color);
+  border-left: 5px solid var(--accent-color);
+  padding-left: 10px;
 }
 
-/* FOOTER */
+/* Listas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+ul li::before {
+  content: "🧬"; /* Un toque sutil de biotecnología */
+  position: absolute;
+  left: 0;
+}
+
+/* Footer */
 footer {
   text-align: center;
-  padding: 20px;
-  color: #777;
-  font-size: 14px;
-}
-
-/* RESPONSIVE */
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 1.8em;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 10px;
-  }
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #888;
 }
